@@ -14,9 +14,10 @@ public class PartB {
     int x = in.nextInt();
     x = Math.abs(x);
     int y = in.nextInt();
+    int a = y;
     y = Math.abs(y);
     in.nextLine();
     int z = x + y;
-    System.out.println(x + " + " + y + " = " + z);
+    System.out.println(x + " + " + a + " = " + z);
   }
 }
