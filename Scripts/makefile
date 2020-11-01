@@ -1,7 +1,10 @@
 all:
-	gcc ../Source/AdaPartA.adb -c
-	gcc ../Source/AdaPartB.adb -c
-	gnatbind ../Source/AdaPartA -o ../Source/AdaPartA.adb
-	gnatlink ../Source/AdaPartA -o ../Source/AdaPartA.ali
-	gnatbind ../Source/AdaPartB -o ../Source/AdaPartA.adb
-	gnatlink ../Source/AdaPartB -o ../Source/AdaPartA.adb
+	gcc ../Source/AdaPartA.adb -c -o ../Source/AdaPartA.o
+	gcc ../Source/AdaPartB.adb -c -o ../Source/AdaPartB.o
+	gnatbind ../Source/AdaPartA
+	gnatlink ../Source/AdaPartA 
+	gnatbind ../Source/AdaPartB 
+	gnatlink ../Source/AdaPartB 
+
+	javac ../Source/JavaPartA.java
+	javac ../Source/JavaPartB.java

@@ -9,7 +9,7 @@ RV NO_IO
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV SPARK_05
 
-U adaparta%b		AdaPartB.adb		972b2819 NE OO SU
+U adapartb%b		AdaPartB.adb		853575c8 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -25,7 +25,7 @@ D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
 D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
 D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
 D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
-D AdaPartB.adb		20201028192203 590d5469 adaparta%b
+D AdaPartB.adb		20201101053416 4b1309b8 adapartb%b
 D interfac.ads		20160502101001 5ab55268 interfaces%s
 D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
 D system.ads		20170510173650 4635ec04 system%s
@@ -52,7 +52,7 @@ X 7 a-textio.ads
 X 8 a-tiinio.ads
 56U14*Get 10|12s4[3|18] 13s4[3|18]
 X 10 AdaPartB.adb
-4U11*AdaPartA 4b11 18l5 18t13
+4U11*AdaPartB 4b11 18l5 18t13
 5i3 x{integer} 12m9 14m4 14r13 16r9 17r28
 6i3 y{integer} 13m9 15r13 17r56
 7i3 a{integer} 15m4 16r13

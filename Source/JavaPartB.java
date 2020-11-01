@@ -1,7 +1,7 @@
 package com.khoffpauir;
 import java.util.Scanner;
 
-public class PartB {
+public class JavaPartB {
 
   public static void main(String[] args) {
         /*
