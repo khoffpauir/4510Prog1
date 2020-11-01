@@ -10,8 +10,8 @@ The Following are acceptable lang args (case-sensivite):
 The following are acceptable file args (case-sensitive, must include file ending):
 - AdaPartA.adb
 - AdaPartB.adb
-- JavaPartA.adb
-- JavaPartA.adb
+- JavaPartA.java
+- JavaPartB.java
 
 If the ada lang arg is given to a java file arg, the program will crash.
 If the file arg given is not exactly as stated above, the program will crash.
