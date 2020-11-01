@@ -26,7 +26,7 @@ do
   file2="../TestFiles/ans$i"
   touch temp1
   touch temp2
-  echo $file1
+  
   out= grep -E "[-]*[0-9]*$" $file1 -o > temp1
   ans= cat $file2 > temp2
   #echo "out = "$out

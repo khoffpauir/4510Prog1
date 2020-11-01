@@ -4,14 +4,14 @@
 
 To run all programs navigate to the Scripts dir and use ./All.sh <lang> <file>
 The Following are acceptable lang args (case-sensivite):
-ada
-java
+- ada
+- java
 
 The following are acceptable file args (case-sensitive, must include file ending):
-AdaPartA.adb
-AdaPartB.adb
-JavaPartA.adb
-JavaPartA.adb
+- AdaPartA.adb
+- AdaPartB.adb
+- JavaPartA.adb
+- JavaPartA.adb
 
 If the ada lang arg is given to a java file arg, the program will crash.
 If the file arg given is not exactly as stated above, the program will crash.
