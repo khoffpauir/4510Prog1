@@ -23,16 +23,19 @@ fi
 for i in {1..7}
 do
   file1="$path/out$i"
-
   file2="../TestFiles/ans$i"
-  ans= sed -n 's/= $//p' $file1
-  if cmp -s "$file2" "$ans"; then
-     cat $file2
-     cat $ans
+  touch temp1
+  touch temp2
+  echo $file1
+  out= grep -E "[-]*[0-9]*$" $file1 -o > temp1
+  ans= cat $file2 > temp2
+  #echo "out = "$out
+  #echo "ans = "$ans
+  if cmp -s "temp2" "temp1"; then
      printf 'Test%i passed\n' "$i"
   else
-     cat $file2
-     cat $ans
      printf 'Test%i failed\n' "$i"  
   fi
+  rm temp1
+  rm temp2
 done
